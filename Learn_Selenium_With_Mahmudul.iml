@@ -58,5 +58,22 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/ExternalLibray/TestNG/jar_files/aopalliance-1.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/ExternalLibray/TestNG/jar_files/guava-19.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/ExternalLibray/TestNG/jar_files/guice-4.1.0-no_aop.jar!/" />
+          <root url="jar://$MODULE_DIR$/ExternalLibray/TestNG/jar_files/javax.inject-1.jar!/" />
+          <root url="jar://$MODULE_DIR$/ExternalLibray/TestNG/jar_files/jcommander-1.72.jar!/" />
+          <root url="jar://$MODULE_DIR$/ExternalLibray/TestNG/jar_files/snakeyaml-1.21.jar!/" />
+          <root url="jar://$MODULE_DIR$/ExternalLibray/TestNG/jar_files/testng-7.1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
