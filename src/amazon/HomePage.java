@@ -1,10 +1,10 @@
 package amazon;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import  org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class HomePage {
+public  class HomePage {
     public static void main(String[] args) throws InterruptedException {
 
 // This code is Firefox browser
@@ -20,7 +20,9 @@ public class HomePage {
         driver.get("https://www.amazon.com/");
         driver.manage().window().fullscreen();
         driver.manage().deleteAllCookies();
-        Thread.sleep(5000);
+        driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Mask");
+        driver.findElement(By.id("nav-search-submit-button")).click();
+        Thread.sleep(50000);
         driver.close();
 
     }
